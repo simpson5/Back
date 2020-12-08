@@ -4,7 +4,8 @@ public class Run {
 
 	public static void main(String[] args) {
 		//Alarm.alarm();
-		MinMax.mm();
+		//MinMax.mm();
+		CountNum.count();
 	}
 
 }

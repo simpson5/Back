@@ -17,17 +17,21 @@ public class MinMax {
 		System.out.println("");
 		
 		int max = numArray[0];
+		int numMax = 0;
 		int min = numArray[0];
+		int numMin = 0;
 		
 		for(int i = 0; i<5; i++) {
 			if(numArray[i] > max) {
 				max = numArray[i];
+				numMax = i+1;
 			}
 			if(numArray[i] < min) {
 				min = numArray[i];
+				numMin = i+1;
 			}
 		}
 		
-		System.out.printf("[%d] [%d]", max, min);
+		System.out.printf("%d번 :[%d] / %d번 : [%d]", numMax, max, numMin, min);
 	}
 }
