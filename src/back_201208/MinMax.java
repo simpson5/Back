@@ -10,11 +10,7 @@ public class MinMax {
 			System.out.println("숫자를 입력하세요.");
 			numArray[i] = sc.nextInt();
 		}
-		for(int simp : numArray) {
-			System.out.printf("[%d]",simp);
-		}
-		
-		System.out.println("");
+		Array.array(numArray);
 		
 		int max = numArray[0];
 		int numMax = 0;

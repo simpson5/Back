@@ -5,7 +5,8 @@ public class Run {
 	public static void main(String[] args) {
 		//Alarm.alarm();
 		//MinMax.mm();
-		CountNum.count();
+		//CountNum.count();
+		ReminderCount.remind();
 	}
 
 }
