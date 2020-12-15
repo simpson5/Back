@@ -2,7 +2,7 @@ package back_201208;
 
 public class Snail {
 	public static void main(String[] args) {
-		int x= 10;
+		int x= 7;
 		int[][] arr = new int[x][x];
 		int num = 1;
 		arr[0][0]=1;
